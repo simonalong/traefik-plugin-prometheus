@@ -4,6 +4,8 @@ iconPath: .assets/icon.png
 
 import: github.com/simonalong/traefik-plugin-prometheus
 
-summary: '[Demo] Add Request Header'
+summary: '安全化处理prometheus的url'
 
-
+testData:
+  Headers:
+    Foo: Bar
